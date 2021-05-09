@@ -5,7 +5,6 @@ exports.run = async function(client, message, args) {
   
  //if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply(`Bu komutu kullanabilmek için **Mesajları Yönet** iznine sahip olmalısın!`);
   
-  var u = message.mentions.users.first()
   var x = args[1]
   if (!u) return message.reply("Birisini etiketlemelisin!")
   
